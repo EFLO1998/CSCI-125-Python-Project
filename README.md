@@ -8,3 +8,10 @@ soup = BeautifulSoup(txt)
 tbl = (soup.find_all('table')[6])
 for word in tbl:
     newtext=word.get_text()
+soup.body.findAll(text='E')
+    
+    
+
+
+
+
